@@ -23,14 +23,14 @@ const portfolio = [
 	},
 	{
 		id: 4,
-		title: "Website 4",
+		title: "COVID-19 Web App",
 		category: ["custom development"],
 		img: "./Cover-JS.jpg",
 		desc: "Master cleanse palo santo listicle ethical squid before they sold out whatever sriracha lyft normcore messenger bag DIY."
 	},
 	{
 		id: 5,
-		title: "Website 5",
+		title: "Javascript Projects",
 		category: ["customisation"],
 		img: "./Logo-JS.png",
 		desc: "Readymade synth crucifix pour-over, kogi tilde fixie raw denim green juice."
@@ -44,12 +44,9 @@ const portfolio = [
 	},
 ];
 
-
 // get parent element
 const portfolioGrid = document.querySelector(".portfolio-grid");
 const btnContainer = document.querySelector(".btn-container");
-
-
 
 // display all items when page loads
 
@@ -62,8 +59,6 @@ window.addEventListener("DOMContentLoaded",function(){
 	// displayPortfolioButtons();
 	loadEvent();
 });
-
-
 
 function displayPortfolioItems(){
 	portfolio.map((item,i) => {
@@ -107,7 +102,6 @@ function displayPortfolioItems(){
 	});
 
 };
-
 
 // function diplayMenuItems(menuItems) {
 //   let displayMenu = menuItems.map(function (item) {
@@ -161,8 +155,6 @@ function loadEvent(){
 			  });
 			});
 }; 
-
-
 
 const categories = ["all",];
 function getButtons(portfolioItems){
